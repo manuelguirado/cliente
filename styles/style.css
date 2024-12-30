@@ -65,8 +65,8 @@ body{
     top: 100px;
 }
 #texto{
-    text-align: center;
-    width: 200px;
+    text-align: justify;
+    width: 500px;
     padding: 20px;
 }
 #container{
