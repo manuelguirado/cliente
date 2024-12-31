@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../images/icono.webp" />
+    <link rel="stylesheet" href="../styles/reserva.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mecadent</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="../images/icono.webp" alt="logo" id="logo" />
+      <nav id="nav">
+        <ul id="menu">
+          <li><a href="#contenido">Inicio</a></li>
+          <li><a href="#reservar">Consigue tu cita</a></li>
+          <li><a href="#modificar">mis citas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contenido">
+        <img src="../images/dentista.webp" alt="imagen dentista" id="dentista" />
+        <p id="texto">MecaDent es una clínica dental moderna y acogedora que ofrece una amplia gama de servicios dentales para toda la familia. 
+          Nuestro equipo de profesionales altamente capacitados
+           está comprometido con brindar atención personalizada 
+           de alta calidad a cada paciente.
+        </p>
+        <form action="" method="post" id="form">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Nombre" required>
+            <label for="apellidos"></label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+            <label for="telefono"></label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Telefono" required>
+            <label for="fechanacimiento"></label>
+            <input type="datetime-local" id="fechanacimiento" name="fechanacimiento" required>
+            <label for="diacita"></label>
+            <input type="datetime-local" id="diacita" name="diacita" required>
+            <textarea name="observaciones" id="observaciones" placeholder="observaciones"></textarea>
+            <button type="submit" id="btn">Reservar</button>
+
+        </form>
+    </main>
+    <footer id="footer">
+        <p>Direccion de la clinica: calle juan pablo I </p>
+        <p>+325665956595</p>
+        <p>&copy;</p>
+    </footer>
+    
+  </body>
+</html>
