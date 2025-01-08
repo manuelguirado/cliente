@@ -58,27 +58,32 @@ body{
     height: 100%;
 }
 #citas{
-    display: flex;
+    display: table;
     justify-content: center;
     align-items: center;
     top: 100px;
     position: absolute;
-    background-color: var(--secundary-color);
- 
-    width: 65%;
-    height: 110px;
+    width: 100%;
+    height: auto;
     border: 1px solid var(--secundary-color);
     border-collapse: collapse;
+    margin: 20px 0;
+}
+#citas thead{
+    background-color: var(--secundary-color);
+    color: white;
 }
 #citas th, td{
     border: 1px solid var(--primary-color);
-    padding: 30px;
-   
-   
-  
+    padding: 10px;
+    text-align: center;  
 }
 
 th,td{
     text-align: center;
     padding: 20px;
+}
+#citas tbody tr:nth-child(odd){
+    background-color: #D9D9D9;
+
 }
